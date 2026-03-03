@@ -1,4 +1,4 @@
-# 🌊 Swin-sprite: A real new sota on Multivariate Time Series Forecasting
+# 🌊 Swin-sprite: 负荷预测最新sota模型
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-ee4c2c.svg)
