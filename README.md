@@ -1,4 +1,4 @@
-# 🌊 Swin-sprite: 负荷预测最新sota模型
+# 🌊 Swin-sprite: 时序预测最新sota模型- A new sota on mutiple variable forcasting
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-ee4c2c.svg)
@@ -8,7 +8,7 @@
 
 ## 🚀实际复现，实际跑分 
 Swin-sprite变体在electricity数据集上L=96,T=96的配置下，Test mse为0.132-0.135，Test Mse 超过itransformer和patch tst
-说明Swin-sprite是Electricity数据集上的sota 
+说明Swin-sprite是Electricity数据集上的sota(L=96,T=96)
 
 itransformer paper 的Table 10给出了L=96,T=96情况下，主流sota模型在uci electricity数据集的跑分：
 itransformer: 0.148和 patch tst:0.181    
@@ -29,7 +29,7 @@ itransformer: 0.148和 patch tst:0.181
 
 ## 🏆 性能评测 (Benchmarks)
 
-在时间序列预测的标准基准测试数据集 **UCL Electricity** 上，Swin-sprite 展现出了压倒性的优势。
+在时间序列预测的标准基准测试数据集 **UCI Electricity** 上，Swin-sprite 展现出了压倒性的优势。
 | 模型 Architecture | 论文数据 (Val Mse, Test Mse) | 自己实现(Val Mse, Test Mse)|
 | :--- | :---: | :---: | 
 | **Swin-sprite (Ours)** |  (not available,not avaiable) |  ( 0.1127,0.1334）  |
