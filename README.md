@@ -12,9 +12,10 @@
 Swin-sprite 变体在 **UCI Electricity** 数据集上（$L=96, T=96$ 配置下），Test MSE 达到了 **0.136**。该成绩显著优于目前主流的 iTransformer 和 PatchTST，十分接近TimiMixer++(ICLR 2025, Oral).
 
 根据 iTransformer 论文 Table 10 给出的基准跑分（$L=96, T=96$）：
-* **iTransformer**: 0.148
-* **PatchTST**: 0.181
-* **TimeMixer++**:0.135
+* **iTransformer**: test mse:0.148
+* **PatchTST**: test mse:0.181
+根据 TimeMixer++ 论文 Table 16 给出的基准跑分（$L=96, T=96$）：
+* **TimeMixer++**: test mse:0.135
 
 **相关链接：**
 * **数据集 (Electricity):** [Kaggle: itransformer-datasets](https://www.kaggle.com/datasets/tylerfarnan/itransformer-datasets)
